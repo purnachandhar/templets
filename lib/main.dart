@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:templets/sample_templet.dart';
 import 'package:templets/wedding/temp_1.dart';
 import 'package:templets/wedding/temp_2.dart';
 import 'package:templets/wedding/temp_3.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Temp6(),
+      home: SampleTemplet(),
     );
   }
 }
