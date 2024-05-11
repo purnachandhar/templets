@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:templets/sample_templet.dart';
-import 'package:templets/wedding/temp_1.dart';
-import 'package:templets/wedding/temp_2.dart';
-import 'package:templets/wedding/temp_3.dart';
-import 'package:templets/wedding/temp_4.dart';
-import 'package:templets/wedding/temp_5.dart';
-import 'package:templets/wedding/temp_6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo', 
+      title: 'Flutter',
       theme: ThemeData(
         // This is the theme of your application.
         //
