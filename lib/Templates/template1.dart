@@ -29,13 +29,14 @@ class _Template1State extends State<Template1> {
                 children: [
                   Image.asset(
                     "assets/images/1.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      h(height / 2.45),
+                      SizedBox(height: height*0.23,),  //use this format
                       Text(
                         "25 YEARS!",
                         style: GoogleFonts.abhayaLibre(
@@ -105,6 +106,7 @@ class _Template1State extends State<Template1> {
                             fontSize: 16,
                             fontWeight: FontWeight.w600),
                       ),
+
                     ],
                   ),
                 ],
