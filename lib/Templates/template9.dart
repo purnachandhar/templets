@@ -29,74 +29,85 @@ class _Template9State extends State<Template9> {
                 children: [
                   Image.asset(
                     "assets/images/9.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height / 1.8),
                       Text(
                         "MR. & MRS. DOE",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                        style: GoogleFonts.lalezar(
+                            color: butteredRum,
+                            fontWeight: FontWeight.normal,
+                            fontSize: 30),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
                       h(5),
                       Text(
                         "cordially invite you to join them for",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
+                        style: GoogleFonts.almarai(
+                            color: egleGreen,
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "The Haldi Cermony of their loving Son",
-                        style: GoogleFonts.marcellus(
-                            color: black,
+                        style: GoogleFonts.almarai(
+                            color: egleGreen,
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "John Doe",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.lobster(
+                            color: butteredRum,
+                            fontSize: 50,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(20),
                       Text(
                         "SUNDAY, 26TH MAY 2024",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.lilitaOne(
+                            fontSize: 20,
+                            color: egleGreen,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "Time: 8:00PM ONWARDS",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        "445 W, Mount Eden Road,",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                            color: egleGreen,
                             fontWeight: FontWeight.bold),
                       ),
                       h(30),
-                      Text(
-                        "Anchorage,AK 99504,USA",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Icon(
+                            Icons.location_on,
+                            size: 30,
+                          ),
+                          w(10),
+                          Column(
+                            children: [
+                              Text(
+                                "445 W, Mount Eden Road,",
+                                style: GoogleFonts.workSans(
+                                    fontSize: 20,
+                                    color: egleGreen,
+                                    fontWeight: FontWeight.w500),
+                              ),
+                              Text(
+                                "Anchorage,AK 99504,USA",
+                                style: GoogleFonts.chivo(
+                                    color: egleGreen,
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w500),
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
                     ],
                   ),

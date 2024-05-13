@@ -29,112 +29,141 @@ class _Template8State extends State<Template8> {
                 children: [
                   Image.asset(
                     "assets/images/8.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height / 7.5),
                       Text(
                         "Mr. & Mrs. Shah",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                            color: midNightBlue,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: 20),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "Cordially invites you to the",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: midNightBlue,
+                            fontSize: 16,
                             fontWeight: FontWeight.bold),
                       ),
                       h(30),
                       Text(
                         "Haldi Cermony",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.playball(
+                            color: prairieSand,
+                            fontSize: 40,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "of their Son",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 36,
+                            fontSize: 22,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
+                      Text(
+                        "Gopal Shah",
+                        style: GoogleFonts.elMessiri(
+                            color: prairieSand,
+                            fontSize: 40,
+                            fontWeight: FontWeight.bold),
+                      ),
+                      h(10),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
                             "FIRDAY",
                             style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
+                                fontSize: 22,
+                                color: black,
                                 fontWeight: FontWeight.bold),
                           ),
-                          Text(
-                            "26",
-                            style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
-                                fontWeight: FontWeight.bold),
+                          w(10),
+                          Container(
+                            alignment: Alignment.center,
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                                color: Colors.red.withOpacity(0.3),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(50))),
+                            child: Container(
+                              alignment: Alignment.center,
+                              height: 52,
+                              width: 52,
+                              decoration: BoxDecoration(
+                                  color: yellow,
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(40))),
+                              child: Text(
+                                "26",
+                                style: GoogleFonts.abhayaLibre(
+                                    fontSize: 40,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
                           ),
+                          w(10),
                           Text(
                             "OCTOBER",
                             style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
+                                fontSize: 22,
+                                color: black,
                                 fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
-                      h(30),
+                      h(10),
                       Text(
-                        "5:00PM Onwards",
+                        "4:00PM Onwards",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.normal),
                       ),
+                      h(10),
                       Text(
                         "Venue:",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.w500),
                       ),
-                      h(30),
+                      h(15),
                       Text(
                         "105,Business Avenue Road, Andheri,",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Mumbai 400075,India",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal),
                       ),
+                      h(20),
                       Text(
                         "From:",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Shah Family",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: prairieSand,
+                            fontSize: 26,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

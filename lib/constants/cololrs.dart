@@ -14,3 +14,5 @@ Color butteredRum = Color(0xffae6c10);
 Color lunarGreen = Color(0xff373c38);
 Color kelp = Color.fromARGB(255, 61, 72, 71);
 Color midNightBlue = Color(0xff191970);
+Color egleGreen = Color(0xff004360);
+Color yellow = Color(0xfff2ca06);
