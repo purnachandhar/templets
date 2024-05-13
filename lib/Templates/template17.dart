@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template1 extends StatefulWidget {
-  const Template1({super.key});
+class Template17 extends StatefulWidget {
+  const Template17({super.key});
 
   @override
-  State<Template1> createState() => _Template1State();
+  State<Template17> createState() => _Template17State();
 }
 
-class _Template1State extends State<Template1> {
+class _Template17State extends State<Template17> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -28,17 +28,14 @@ class _Template1State extends State<Template1> {
                 alignment: Alignment.center,
                 children: [
                   Image.asset(
-                    "assets/images/1.jpg",
-                    fit: BoxFit.fill,
+                    "assets/images/17.jpg",
+                    // fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(
-                        height: height * 0.23,
-                      ), //use this format
+                      h(height / 2.45),
                       Text(
                         "25 YEARS!",
                         style: GoogleFonts.abhayaLibre(
@@ -55,7 +52,7 @@ class _Template1State extends State<Template1> {
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
                         "PLEASE JOIN US TO",
                         style: GoogleFonts.marcellus(
@@ -67,7 +64,7 @@ class _Template1State extends State<Template1> {
                         "CELEBRATE THE ENGAGEMENT ANNIVERSARY OF",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       h(20),
@@ -78,7 +75,7 @@ class _Template1State extends State<Template1> {
                             color: cactus,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
                         "SATURDAY, APRIL 5TH 2032",
                         style: GoogleFonts.workSans(
@@ -93,19 +90,19 @@ class _Template1State extends State<Template1> {
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
                         "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "AK 99504,USA",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                     ],
