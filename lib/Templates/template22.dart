@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template1 extends StatefulWidget {
-  const Template1({super.key});
+class Template22 extends StatefulWidget {
+  const Template22({super.key});
 
   @override
-  State<Template1> createState() => _Template1State();
+  State<Template22> createState() => _Template22State();
 }
 
-class _Template1State extends State<Template1> {
+class _Template22State extends State<Template22> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -28,19 +28,16 @@ class _Template1State extends State<Template1> {
                 alignment: Alignment.center,
                 children: [
                   Image.asset(
-                    "assets/images/1.jpg",
-                    fit: BoxFit.fill,
+                    "assets/images/22.jpg",
+                    // fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(
-                        height: height * 0.23,
-                      ), //use this format
+                      h(height / 2.45),
                       Text(
-                        "25 YEARS!",
+                        "Let's",
                         style: GoogleFonts.abhayaLibre(
                             color: cactus,
                             fontWeight: FontWeight.bold,
@@ -49,63 +46,88 @@ class _Template1State extends State<Template1> {
                       ),
                       h(5),
                       Text(
-                        "AND FOREVER MORE TO GO",
+                        "Flutter",
                         style: GoogleFonts.elMessiri(
                             color: black,
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "PLEASE JOIN US TO",
+                        "Twirl",
                         style: GoogleFonts.marcellus(
                             color: black,
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "CELEBRATE THE ENGAGEMENT ANNIVERSARY OF",
+                        "with The Birthday Girl",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       h(20),
                       Text(
-                        "SARA & JOSEPH",
+                        "Arieta",
                         style: GoogleFonts.abhayaLibre(
                             fontSize: 40,
                             color: cactus,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "SATURDAY, APRIL 5TH 2032",
+                        "Is Turning Three",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      Text(
-                        "AT 2:00 PM",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                      Row(
+                        children: [
+                          Text(
+                            "August",
+                            style: GoogleFonts.workSans(
+                                fontSize: 20,
+                                color: black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            "20",
+                            style: GoogleFonts.workSans(
+                                fontSize: 20,
+                                color: black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            "At 5PM",
+                            style: GoogleFonts.workSans(
+                                fontSize: 20,
+                                color: black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
+                        "445 W, MOUNT EDEN ROAD,",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "AK 99504,USA",
+                        "ANCHORAGE,AK 99504",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
+                            fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "RSVP To +1 012 345 6789",
+                        style: GoogleFonts.chivo(
+                            color: black,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

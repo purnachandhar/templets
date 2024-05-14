@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template1 extends StatefulWidget {
-  const Template1({super.key});
+class Template7 extends StatefulWidget {
+  const Template7({super.key});
 
   @override
-  State<Template1> createState() => _Template1State();
+  State<Template7> createState() => _Template7State();
 }
 
-class _Template1State extends State<Template1> {
+class _Template7State extends State<Template7> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -28,84 +28,100 @@ class _Template1State extends State<Template1> {
                 alignment: Alignment.center,
                 children: [
                   Image.asset(
-                    "assets/images/1.jpg",
+                    "assets/images/7.jpg",
                     fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(
-                        height: height * 0.23,
-                      ), //use this format
+                      h(height / 5),
                       Text(
-                        "25 YEARS!",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                        "Please Join Us For The",
+                        style: GoogleFonts.notoSans(
+                            color: lunarGreen,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: 20),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
                       h(5),
                       Text(
-                        "AND FOREVER MORE TO GO",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                        "Haldi Cermony",
+                        style: GoogleFonts.amita(
+                            color: butteredRum,
+                            fontSize: 45,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
                       Text(
-                        "PLEASE JOIN US TO",
+                        "of",
                         style: GoogleFonts.marcellus(
-                            color: black,
+                            color: lunarGreen,
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "CELEBRATE THE ENGAGEMENT ANNIVERSARY OF",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 16,
+                        "Rohan",
+                        style: GoogleFonts.playball(
+                            color: butteredRum,
+                            fontSize: 60,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
-                      Text(
-                        "SARA & JOSEPH",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            "Monday",
+                            style: GoogleFonts.roboto(
+                                fontSize: 22,
+                                color: lunarGreen,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          w(10),
+                          VerticalDivider(
+                            thickness: 3,
+                            width: 4,
+                            // indent: 120,
+                            // endIndent: 160,
+                            color: black,
+                          ),
+                          Text(
+                            "9",
+                            style: GoogleFonts.abhayaLibre(
+                                fontSize: 50,
+                                color: butteredRum,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          w(10),
+                          Text(
+                            "August",
+                            style: GoogleFonts.roboto(
+                                fontSize: 22,
+                                color: lunarGreen,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
-                      h(10),
                       Text(
-                        "SATURDAY, APRIL 5TH 2032",
+                        "4PM Onwards",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
-                            color: black,
+                            color: lunarGreen,
                             fontWeight: FontWeight.bold),
                       ),
+                      h(50),
                       Text(
-                        "AT 2:00 PM",
+                        "456 Park Avenue, Surat, Gujarat 395007",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(10),
-                      Text(
-                        "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
-                        style: GoogleFonts.chivo(
-                            color: black,
                             fontSize: 16,
-                            fontWeight: FontWeight.w600),
+                            color: lunarGreen,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
-                        "AK 99504,USA",
+                        "RVSP +91 0123 456 789",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 16,
+                            color: kelp,
+                            fontSize: 14,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

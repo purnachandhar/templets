@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template1 extends StatefulWidget {
-  const Template1({super.key});
+class Template21 extends StatefulWidget {
+  const Template21({super.key});
 
   @override
-  State<Template1> createState() => _Template1State();
+  State<Template21> createState() => _Template21State();
 }
 
-class _Template1State extends State<Template1> {
+class _Template21State extends State<Template21> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -28,19 +28,16 @@ class _Template1State extends State<Template1> {
                 alignment: Alignment.center,
                 children: [
                   Image.asset(
-                    "assets/images/1.jpg",
-                    fit: BoxFit.fill,
+                    "assets/images/21.jpg",
+                    // fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(
-                        height: height * 0.23,
-                      ), //use this format
+                      h(height / 2.45),
                       Text(
-                        "25 YEARS!",
+                        "We Invite You With Great Pleasure To",
                         style: GoogleFonts.abhayaLibre(
                             color: cactus,
                             fontWeight: FontWeight.bold,
@@ -49,63 +46,77 @@ class _Template1State extends State<Template1> {
                       ),
                       h(5),
                       Text(
-                        "AND FOREVER MORE TO GO",
+                        "This Blessed Ocassion",
                         style: GoogleFonts.elMessiri(
                             color: black,
                             fontSize: 20,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "PLEASE JOIN US TO",
+                        "Arieta",
                         style: GoogleFonts.marcellus(
                             color: black,
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "CELEBRATE THE ENGAGEMENT ANNIVERSARY OF",
+                        "On Her Colourfull",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       h(20),
                       Text(
-                        "SARA & JOSEPH",
+                        "Haldi",
                         style: GoogleFonts.abhayaLibre(
                             fontSize: 40,
                             color: cactus,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "SATURDAY, APRIL 5TH 2032",
+                        "Ceremony",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "AT 2:00 PM",
+                        "15 DECEMBER, 2029",
                         style: GoogleFonts.workSans(
                             fontSize: 20,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(10),
+                      h(30),
                       Text(
-                        "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
+                        "5:30PM Onwards",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "AK 99504,USA",
+                        "venue",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: 36,
+                            fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "445, Mount Eden Road,",
+                        style: GoogleFonts.chivo(
+                            color: black,
+                            fontSize: 36,
+                            fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "Anytown, USA",
+                        style: GoogleFonts.chivo(
+                            color: black,
+                            fontSize: 36,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

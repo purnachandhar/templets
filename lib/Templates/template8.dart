@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template1 extends StatefulWidget {
-  const Template1({super.key});
+class Template8 extends StatefulWidget {
+  const Template8({super.key});
 
   @override
-  State<Template1> createState() => _Template1State();
+  State<Template8> createState() => _Template8State();
 }
 
-class _Template1State extends State<Template1> {
+class _Template8State extends State<Template8> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -28,84 +28,142 @@ class _Template1State extends State<Template1> {
                 alignment: Alignment.center,
                 children: [
                   Image.asset(
-                    "assets/images/1.jpg",
+                    "assets/images/8.jpg",
                     fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(
-                        height: height * 0.23,
-                      ), //use this format
+                      h(height / 7.5),
                       Text(
-                        "25 YEARS!",
+                        "Mr. & Mrs. Shah",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                            color: midNightBlue,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: 20),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
-                        "AND FOREVER MORE TO GO",
+                        "Cordially invites you to the",
                         style: GoogleFonts.elMessiri(
+                            color: midNightBlue,
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold),
+                      ),
+                      h(30),
+                      Text(
+                        "Haldi Cermony",
+                        style: GoogleFonts.playball(
+                            color: prairieSand,
+                            fontSize: 40,
+                            fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "of their Son",
+                        style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 20,
+                            fontSize: 22,
+                            fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "Gopal Shah",
+                        style: GoogleFonts.elMessiri(
+                            color: prairieSand,
+                            fontSize: 40,
                             fontWeight: FontWeight.bold),
                       ),
                       h(10),
-                      Text(
-                        "PLEASE JOIN US TO",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "FIRDAY",
+                            style: GoogleFonts.abhayaLibre(
+                                fontSize: 22,
+                                color: black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          w(10),
+                          Container(
+                            alignment: Alignment.center,
+                            height: 60,
+                            width: 60,
+                            decoration: BoxDecoration(
+                                color: Colors.red.withOpacity(0.3),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(50))),
+                            child: Container(
+                              alignment: Alignment.center,
+                              height: 52,
+                              width: 52,
+                              decoration: BoxDecoration(
+                                  color: yellow,
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(40))),
+                              child: Text(
+                                "26",
+                                style: GoogleFonts.abhayaLibre(
+                                    fontSize: 40,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                            ),
+                          ),
+                          w(10),
+                          Text(
+                            "OCTOBER",
+                            style: GoogleFonts.abhayaLibre(
+                                fontSize: 22,
+                                color: black,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
+                      h(10),
                       Text(
-                        "CELEBRATE THE ENGAGEMENT ANNIVERSARY OF",
-                        style: GoogleFonts.marcellus(
+                        "4:00PM Onwards",
+                        style: GoogleFonts.workSans(
+                            fontSize: 20,
+                            color: black,
+                            fontWeight: FontWeight.normal),
+                      ),
+                      h(10),
+                      Text(
+                        "Venue:",
+                        style: GoogleFonts.workSans(
+                            fontSize: 20,
+                            color: black,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      h(15),
+                      Text(
+                        "105,Business Avenue Road, Andheri,",
+                        style: GoogleFonts.chivo(
                             color: black,
                             fontSize: 16,
-                            fontWeight: FontWeight.w600),
+                            fontWeight: FontWeight.normal),
+                      ),
+                      Text(
+                        "Mumbai 400075,India",
+                        style: GoogleFonts.chivo(
+                            color: black,
+                            fontSize: 16,
+                            fontWeight: FontWeight.normal),
                       ),
                       h(20),
                       Text(
-                        "SARA & JOSEPH",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(10),
-                      Text(
-                        "SATURDAY, APRIL 5TH 2032",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        "AT 2:00 PM",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(10),
-                      Text(
-                        "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
+                        "From:",
                         style: GoogleFonts.chivo(
                             color: black,
                             fontSize: 16,
-                            fontWeight: FontWeight.w600),
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
-                        "AK 99504,USA",
+                        "Shah Family",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 16,
+                            color: prairieSand,
+                            fontSize: 26,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

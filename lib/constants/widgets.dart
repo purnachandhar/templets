@@ -6,7 +6,7 @@ h(double h) {
   );
 }
 
-w(w) {
+w(double w) {
   return SizedBox(
     width: w,
   );
