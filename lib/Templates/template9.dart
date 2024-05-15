@@ -34,8 +34,9 @@ class _Template9State extends State<Template9> {
                     width: width,
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      h(height / 1.8),
+                      // h(height / 1.8),
                       Text(
                         "MR. & MRS. DOE",
                         style: GoogleFonts.lalezar(
@@ -44,19 +45,19 @@ class _Template9State extends State<Template9> {
                             fontSize: 30),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+
                       Text(
                         "cordially invite you to join them for",
                         style: GoogleFonts.almarai(
                             color: egleGreen,
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "The Haldi Cermony of their loving Son",
                         style: GoogleFonts.almarai(
                             color: egleGreen,
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
@@ -76,16 +77,17 @@ class _Template9State extends State<Template9> {
                       Text(
                         "Time: 8:00PM ONWARDS",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: 18,
                             color: egleGreen,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height*0.02),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
                             Icons.location_on,
+                            color: egleGreen,
                             size: 30,
                           ),
                           w(10),
@@ -94,7 +96,7 @@ class _Template9State extends State<Template9> {
                               Text(
                                 "445 W, Mount Eden Road,",
                                 style: GoogleFonts.workSans(
-                                    fontSize: 20,
+                                    fontSize: 18,
                                     color: egleGreen,
                                     fontWeight: FontWeight.w500),
                               ),
