@@ -36,7 +36,7 @@ class _Template6State extends State<Template6> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      h(height / 9),
+                      h(height * 0.1),
                       Text(
                         "Mr. & Mrs Patil",
                         style: GoogleFonts.abhayaLibre(
@@ -45,7 +45,7 @@ class _Template6State extends State<Template6> {
                             fontSize: 18),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+                      h(height * 0.01),
                       Text(
                         "Cordially Invite You To The",
                         style: GoogleFonts.elMessiri(
@@ -53,7 +53,7 @@ class _Template6State extends State<Template6> {
                             fontSize: 16,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.01),
                       Text(
                         "Dipika's",
                         style: GoogleFonts.pacifico(
@@ -68,7 +68,7 @@ class _Template6State extends State<Template6> {
                             fontSize: 50,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(20),
+                      h(height * 0.01),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -111,7 +111,7 @@ class _Template6State extends State<Template6> {
                             color: muleFawn,
                             fontWeight: FontWeight.normal),
                       ),
-                      h(30),
+                      h(height * 0.01),
                       Text(
                         ". Venue .",
                         style: GoogleFonts.chivo(
@@ -123,14 +123,14 @@ class _Template6State extends State<Template6> {
                         "105, Business Avenue",
                         style: GoogleFonts.chivo(
                             color: muleFawn,
-                            fontSize: 18,
+                            fontSize: 14,
                             fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Road, Andheri, Mumbai 400075,India",
                         style: GoogleFonts.chivo(
                             color: muleFawn,
-                            fontSize: 18,
+                            fontSize: 14,
                             fontWeight: FontWeight.normal),
                       ),
                     ],
