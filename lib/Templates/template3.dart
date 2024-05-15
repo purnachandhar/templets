@@ -34,22 +34,23 @@ class _Template3State extends State<Template3> {
                     width: width,
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      h(height / 2.8),
+                      h(height*0.15),
                       Text(
                         "Mehendi & Sangeet",
                         style: GoogleFonts.sail(
                             color: alizarinCrimson,
                             fontWeight: FontWeight.bold,
-                            fontSize: 40),
+                          fontSize: width * 0.1,),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+
                       Text(
                         "We Cordially Invite You To Join Us For",
                         style: GoogleFonts.inter(
                             color: black,
-                            fontSize: 16,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.normal),
                       ),
                       // h(10),
@@ -57,18 +58,18 @@ class _Template3State extends State<Template3> {
                         "The Mehndi And Sangeet Ceremony In Honor Of",
                         style: GoogleFonts.inter(
                             color: black,
-                            fontSize: 16,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.normal),
                       ),
-                      h(20),
+
                       Text(
                         "Rohan & Riya",
                         style: GoogleFonts.sail(
                             color: alizarinCrimson,
-                            fontSize: 36,
+                            fontSize: width * 0.09,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(30),
+
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -80,7 +81,7 @@ class _Template3State extends State<Template3> {
                                 color: alizarinCrimson,
                                 fontWeight: FontWeight.normal),
                           ),
-                          w(20.0),
+                          w(width*0.015),
                           Text(
                             "26",
                             style: GoogleFonts.inter(
@@ -88,7 +89,7 @@ class _Template3State extends State<Template3> {
                                 color: alizarinCrimson,
                                 fontWeight: FontWeight.w500),
                           ),
-                          w(20.0),
+                          w(width*0.015),
                           Text(
                             "January",
                             style: GoogleFonts.poppins(
@@ -98,7 +99,7 @@ class _Template3State extends State<Template3> {
                           ),
                         ],
                       ),
-                      h(30),
+
                       Text(
                         "5PM Onwards",
                         style: GoogleFonts.workSans(
@@ -106,11 +107,11 @@ class _Template3State extends State<Template3> {
                             color: alizarinCrimson,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(40),
+
                       Text(
                         "105, Business Avenue Road",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: width * 0.04,
                             color: black,
                             fontWeight: FontWeight.normal),
                       ),
@@ -118,7 +119,7 @@ class _Template3State extends State<Template3> {
                         "Andheri, Mumbai",
                         style: GoogleFonts.workSans(
                             color: black,
-                            fontSize: 20,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.normal),
                       ),
                     ],

@@ -36,10 +36,9 @@ class _Template2State extends State<Template2> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 40),
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.end,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        h(height / 6),
                         Text(
                           "WE'RE",
                           style: GoogleFonts.notoSerif(
@@ -55,7 +54,7 @@ class _Template2State extends State<Template2> {
                               fontSize: 90,
                               fontWeight: FontWeight.bold),
                         ),
-                        h(30),
+
                         Text(
                           "YOU'RE INVITED TO",
                           style: GoogleFonts.ubuntu(
@@ -70,7 +69,7 @@ class _Template2State extends State<Template2> {
                               fontSize: 20,
                               fontWeight: FontWeight.normal),
                         ),
-                        h(20),
+                        h(height*0.01),
                         Text(
                           "ARIETA BENSEN",
                           style: GoogleFonts.playfairDisplay(
@@ -85,7 +84,7 @@ class _Template2State extends State<Template2> {
                               color: cactus,
                               fontWeight: FontWeight.bold),
                         ),
-                        h(20),
+                        h(height*0.01),
                         Text(
                           "FRIDAY, OCTOBER 25TH 2032",
                           style: GoogleFonts.workSans(
@@ -96,11 +95,11 @@ class _Template2State extends State<Template2> {
                         Text(
                           "AT 6:00 PM",
                           style: GoogleFonts.workSans(
-                              fontSize: 20,
+                              fontSize: 18,
                               color: black,
                               fontWeight: FontWeight.bold),
                         ),
-                        h(30),
+                        h(height*0.02),
                         Text(
                           "445 W, MOUNT EDEN ROAD, ANCHORAGE,",
                           style: GoogleFonts.ubuntu(
@@ -115,7 +114,7 @@ class _Template2State extends State<Template2> {
                               fontSize: 14,
                               fontWeight: FontWeight.w600),
                         ),
-                        h(20),
+                        h(height*0.02),
                         Text(
                           "RSVP BY OCTOBER 5TH TO JOHN",
                           style: GoogleFonts.ubuntu(
@@ -130,6 +129,7 @@ class _Template2State extends State<Template2> {
                               fontSize: 14,
                               fontWeight: FontWeight.w600),
                         ),
+                        h(height*0.09),
                       ],
                     ),
                   ),
@@ -148,7 +148,7 @@ class _Template2State extends State<Template2> {
                   const Spacer(),
                   Icon(
                     Icons.translate,
-                    color: Colors.cyan,
+                    color: Colors.black,
                     size: 28,
                   ),
                   h(2),
