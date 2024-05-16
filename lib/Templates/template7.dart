@@ -35,36 +35,36 @@ class _Template7State extends State<Template7> {
                   ),
                   Column(
                     children: [
-                      h(height / 5),
+                      h(height * 0.18),
                       Text(
                         "Please Join Us For The",
                         style: GoogleFonts.notoSans(
-                            color: lunarGreen,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20),
+                            color: egleGreen,
+                            fontWeight: FontWeight.normal,
+                            fontSize: width * 0.034),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+                      h(height * 0.004),
                       Text(
                         "Haldi Cermony",
-                        style: GoogleFonts.amita(
+                        style: GoogleFonts.rancho(
                             color: butteredRum,
-                            fontSize: 45,
-                            fontWeight: FontWeight.bold),
+                            fontSize: width * 0.13,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
-                        "of",
+                        "Of",
                         style: GoogleFonts.marcellus(
-                            color: lunarGreen,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                            color: egleGreen,
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
                         "Rohan",
                         style: GoogleFonts.playball(
                             color: butteredRum,
-                            fontSize: 60,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.12,
+                            fontWeight: FontWeight.normal),
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -73,18 +73,17 @@ class _Template7State extends State<Template7> {
                           Text(
                             "Monday",
                             style: GoogleFonts.roboto(
-                                fontSize: 22,
-                                color: lunarGreen,
-                                fontWeight: FontWeight.bold),
+                                fontSize: width * 0.05,
+                                color: egleGreen,
+                                fontWeight: FontWeight.w600),
                           ),
                           w(10),
-                          VerticalDivider(
-                            thickness: 3,
-                            width: 4,
-                            // indent: 120,
-                            // endIndent: 160,
-                            color: black,
+                          Container(
+                            width: 2,
+                            height: 40,
+                            color: prairieSand,
                           ),
+                          w(10),
                           Text(
                             "9",
                             style: GoogleFonts.abhayaLibre(
@@ -93,35 +92,40 @@ class _Template7State extends State<Template7> {
                                 fontWeight: FontWeight.bold),
                           ),
                           w(10),
+                          Container(
+                            width: 2,
+                            height: 40,
+                            color: prairieSand,
+                          ),
+                          w(10),
                           Text(
                             "August",
                             style: GoogleFonts.roboto(
-                                fontSize: 22,
-                                color: lunarGreen,
-                                fontWeight: FontWeight.bold),
+                                fontSize: width * 0.05,
+                                color: egleGreen,
+                                fontWeight: FontWeight.w600),
                           ),
                         ],
                       ),
                       Text(
                         "4PM Onwards",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: lunarGreen,
-                            fontWeight: FontWeight.bold),
+                            fontSize: width * 0.05,
+                            color: egleGreen,
+                            fontWeight: FontWeight.w600),
                       ),
-                      h(50),
                       Text(
                         "456 Park Avenue, Surat, Gujarat 395007",
                         style: GoogleFonts.workSans(
-                            fontSize: 16,
-                            color: lunarGreen,
+                            fontSize: width * 0.035,
+                            color: egleGreen,
                             fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "RVSP +91 0123 456 789",
                         style: GoogleFonts.chivo(
-                            color: kelp,
-                            fontSize: 14,
+                            color: egleGreen,
+                            fontSize: width * 0.034,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

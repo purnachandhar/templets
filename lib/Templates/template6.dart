@@ -63,7 +63,7 @@ class _Template6State extends State<Template6> {
                       ),
                       Text(
                         "Haldi Ceremony",
-                        style: GoogleFonts.waterfall(
+                        style: GoogleFonts.pattaya(
                             color: prairieSand,
                             fontSize: 50,
                             fontWeight: FontWeight.bold),
@@ -74,29 +74,35 @@ class _Template6State extends State<Template6> {
                         children: [
                           Text(
                             "June",
-                            style: GoogleFonts.abhayaLibre(
+                            style: GoogleFonts.quando(
                                 fontSize: 30,
                                 color: cactus,
                                 fontWeight: FontWeight.bold),
                           ),
                           w(10),
-                          VerticalDivider(
-                            width: 2,
-                            indent: 0,
-                            endIndent: 20,
-                            color: black,
+                          Container(
+                            width: 4,
+                            height: 40,
+                            color: prairieSand,
                           ),
+                          w(10),
                           Text(
                             "13",
-                            style: GoogleFonts.abhayaLibre(
+                            style: GoogleFonts.quando(
                                 fontSize: 40,
                                 color: cactus,
                                 fontWeight: FontWeight.bold),
                           ),
                           w(10),
+                          Container(
+                            width: 4,
+                            height: 40,
+                            color: prairieSand,
+                          ),
+                          w(10),
                           Text(
                             "2032",
-                            style: GoogleFonts.abhayaLibre(
+                            style: GoogleFonts.quando(
                                 fontSize: 30,
                                 color: cactus,
                                 fontWeight: FontWeight.bold),

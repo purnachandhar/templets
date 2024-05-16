@@ -35,42 +35,44 @@ class _Template8State extends State<Template8> {
                   ),
                   Column(
                     children: [
-                      h(height / 7.5),
+                      h(height * 0.12),
                       Text(
                         "Mr. & Mrs. Shah",
                         style: GoogleFonts.abhayaLibre(
-                            color: midNightBlue,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20),
+                          color: midNightBlue,
+                          fontWeight: FontWeight.bold,
+                          fontSize: width * 0.038,
+                        ),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
                       Text(
                         "Cordially invites you to the",
                         style: GoogleFonts.elMessiri(
                             color: midNightBlue,
-                            fontSize: 16,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(20),
                       Text(
                         "Haldi Cermony",
                         style: GoogleFonts.playball(
                             color: prairieSand,
-                            fontSize: 40,
+                            fontSize: width * 0.07,
                             fontWeight: FontWeight.w600),
                       ),
+                      h(1),
                       Text(
                         "of their Son",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 22,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
                         "Gopal Shah",
                         style: GoogleFonts.elMessiri(
                             color: prairieSand,
-                            fontSize: 40,
+                            fontSize: width * 0.065,
                             fontWeight: FontWeight.bold),
                       ),
                       h(10),
@@ -80,7 +82,7 @@ class _Template8State extends State<Template8> {
                           Text(
                             "FIRDAY",
                             style: GoogleFonts.abhayaLibre(
-                                fontSize: 22,
+                                fontSize: width * 0.04,
                                 color: black,
                                 fontWeight: FontWeight.bold),
                           ),
@@ -104,7 +106,7 @@ class _Template8State extends State<Template8> {
                               child: Text(
                                 "26",
                                 style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
+                                    fontSize: width * 0.09,
                                     color: black,
                                     fontWeight: FontWeight.bold),
                               ),
@@ -114,57 +116,57 @@ class _Template8State extends State<Template8> {
                           Text(
                             "OCTOBER",
                             style: GoogleFonts.abhayaLibre(
-                                fontSize: 22,
+                                fontSize: width * 0.04,
                                 color: black,
                                 fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
-                      h(10),
+                      h(5),
                       Text(
                         "4:00PM Onwards",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.normal),
-                      ),
-                      h(10),
-                      Text(
-                        "Venue:",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: width * 0.035,
                             color: black,
                             fontWeight: FontWeight.w500),
                       ),
-                      h(15),
+                      h(height * 0.01),
+                      Text(
+                        "Venue:",
+                        style: GoogleFonts.workSans(
+                            fontSize: width * 0.042,
+                            color: black,
+                            fontWeight: FontWeight.w500),
+                      ),
+                      // h(height * 0.01),
                       Text(
                         "105,Business Avenue Road, Andheri,",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Mumbai 400075,India",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.normal),
                       ),
-                      h(20),
+                      h(5),
                       Text(
                         "From:",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 16,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Shah Family",
                         style: GoogleFonts.chivo(
                             color: prairieSand,
-                            fontSize: 26,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.w500),
                       ),
                     ],
                   ),

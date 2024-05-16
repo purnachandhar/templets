@@ -34,39 +34,46 @@ class _Template9State extends State<Template9> {
                     width: width,
                   ),
                   Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      // h(height / 1.8),
+                      h(height * 0.54),
                       Text(
                         "MR. & MRS. DOE",
                         style: GoogleFonts.lalezar(
-                            color: butteredRum,
-                            fontWeight: FontWeight.normal,
-                            fontSize: 30),
+                          color: butteredRum,
+                          fontWeight: FontWeight.normal,
+                          fontSize: width * 0.06,
+                        ),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-
                       Text(
                         "cordially invite you to join them for",
                         style: GoogleFonts.almarai(
                             color: egleGreen,
-                            fontSize: 18,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "The Haldi Cermony of their loving Son",
                         style: GoogleFonts.almarai(
                             color: egleGreen,
-                            fontSize: 18,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "John Doe",
                         style: GoogleFonts.lobster(
                             color: butteredRum,
-                            fontSize: 50,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.normal),
                       ),
+                      Divider(
+                        thickness: 2,
+                        color: butteredRum,
+                        indent: 80,
+                        endIndent: 80,
+                      ),
+                      h(height * 0.01),
                       Text(
                         "SUNDAY, 26TH MAY 2024",
                         style: GoogleFonts.lilitaOne(
@@ -81,7 +88,14 @@ class _Template9State extends State<Template9> {
                             color: egleGreen,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(height*0.02),
+                      h(height * 0.01),
+                      Divider(
+                        thickness: 2,
+                        color: butteredRum,
+                        indent: 80,
+                        endIndent: 80,
+                      ),
+                      h(height * 0.02),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -96,16 +110,16 @@ class _Template9State extends State<Template9> {
                               Text(
                                 "445 W, Mount Eden Road,",
                                 style: GoogleFonts.workSans(
-                                    fontSize: 18,
+                                    fontSize: width * 0.04,
                                     color: egleGreen,
-                                    fontWeight: FontWeight.w500),
+                                    fontWeight: FontWeight.w600),
                               ),
                               Text(
                                 "Anchorage,AK 99504,USA",
                                 style: GoogleFonts.chivo(
                                     color: egleGreen,
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.w500),
+                                    fontSize: width * 0.04,
+                                    fontWeight: FontWeight.w600),
                               ),
                             ],
                           ),

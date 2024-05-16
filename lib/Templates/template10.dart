@@ -29,66 +29,63 @@ class _Template10State extends State<Template10> {
                 children: [
                   Image.asset(
                     "assets/images/10.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.2),
                       Text(
                         "YOU ARE",
                         style: GoogleFonts.abhayaLibre(
                             color: cactus,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.06),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "CORDIALLY INVITED TO THE",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: cactus,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "Haldi Cermony",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.ephesis(
+                            color: red,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "OF",
-                        style: GoogleFonts.marcellus(
+                        style: GoogleFonts.notoSerif(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.w500),
                       ),
-                      h(20),
                       Text(
                         "Sonia",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.ephesis(
+                            fontSize: width * 0.1,
+                            color: red,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.015),
                       Text(
                         "OCTOBER 15.20XX | 7:00 PM",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.notoSerif(
+                            fontSize: width * 0.04,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "AT THE RESIDENCE",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.notoSerif(
+                            fontSize: width * 0.04,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.normal),
                       ),
                     ],
                   ),
