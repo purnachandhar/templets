@@ -36,7 +36,7 @@ class _Template4State extends State<Template4> {
                   Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
-                      h(height / 18),
+                      h(height * 0.06),
                       Text(
                         "Mrs. Suchitra Verma & Mr. Jayesh Verma",
                         style: GoogleFonts.elMessiri(
@@ -56,7 +56,7 @@ class _Template4State extends State<Template4> {
                         "Haldi & Mehendi",
                         style: GoogleFonts.pattaya(
                             color: kumera,
-                            fontSize: 50,
+                            fontSize: 40,
                             fontWeight: FontWeight.normal),
                       ),
                       Text(
@@ -70,7 +70,7 @@ class _Template4State extends State<Template4> {
                         "Mayur",
                         style: GoogleFonts.lobsterTwo(
                             color: kumera,
-                            fontSize: 50,
+                            fontSize: 40,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
@@ -94,7 +94,7 @@ class _Template4State extends State<Template4> {
                             color: black,
                             fontWeight: FontWeight.normal),
                       ),
-                      h(60),
+                      h(height*0.03),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 50),
                         child: Row(
@@ -108,13 +108,8 @@ class _Template4State extends State<Template4> {
                                       fontSize: 18,
                                       fontWeight: FontWeight.w600),
                                 ),
-                                Divider(
-                                  thickness: 8,
-                                  height: 6,
-                                  indent: 20,
-                                  endIndent: 100,
-                                  color: black,
-                                ),
+                                Container(width: 110, height: 3
+                                  ,color: Colors.black,),
                                 Text(
                                   "20 January",
                                   style: GoogleFonts.elMessiri(
@@ -124,14 +119,9 @@ class _Template4State extends State<Template4> {
                                 ),
                               ],
                             ),
-                            w(20.0),
-                            VerticalDivider(
-                              width: 2,
-                              indent: 20,
-                              endIndent: 20,
-                              thickness: 40,
-                              color: black,
-                            ),
+                            Container(width: 3, height: 60
+                              ,color: Colors.black,),
+                            w(width*0.02),
                             Text(
                               "9AM",
                               style: GoogleFonts.elMessiri(
@@ -142,7 +132,7 @@ class _Template4State extends State<Template4> {
                           ],
                         ),
                       ),
-                      h(80),
+                      h(height*0.01),
                       Align(
                         alignment: Alignment.topLeft,
                         child: Padding(
@@ -167,6 +157,7 @@ class _Template4State extends State<Template4> {
                           ),
                         ),
                       ),
+
                     ],
                   ),
                 ],

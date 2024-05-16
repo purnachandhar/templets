@@ -19,6 +19,7 @@ import 'package:templets/Templates/template8.dart';
 // import 'package:templets/Templates/template4.dart';
 // import 'package:templets/Templates/template5.dart';
 import 'package:templets/Templates/template6.dart';
+import 'package:templets/Templates/template9.dart';
 // import 'package:templets/Templates/template7.dart';
 // import 'package:templets/Templates/template8.dart';
 // import 'package:templets/Templates/template9.dart';
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Template6(),
+      home: Template10(),
     );
   }
 }

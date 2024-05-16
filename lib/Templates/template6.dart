@@ -103,7 +103,6 @@ class _Template6State extends State<Template6> {
                           ),
                         ],
                       ),
-                      h(5),
                       Text(
                         "8:00PM Onwards",
                         style: GoogleFonts.workSans(
