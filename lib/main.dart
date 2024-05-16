@@ -4,7 +4,12 @@ import 'package:flutter/material.dart';
 // import 'package:templets/Templates/template3.dart';
 // import 'package:templets/Templates/template4.dart';
 // import 'package:templets/Templates/template5.dart';
+<<<<<<< HEAD
 // import 'package:templets/Templates/template6.dart';
+=======
+import 'package:templets/Templates/template6.dart';
+import 'package:templets/Templates/template9.dart';
+>>>>>>> fa5c0ecb09d03fab846f798dc7f23beff8190191
 // import 'package:templets/Templates/template7.dart';
 // import 'package:templets/Templates/template8.dart';
 // import 'package:templets/Templates/template9.dart';
@@ -40,7 +45,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+<<<<<<< HEAD
       home: const Template10(),
+=======
+      home: Template10(),
+>>>>>>> fa5c0ecb09d03fab846f798dc7f23beff8190191
     );
   }
 }
