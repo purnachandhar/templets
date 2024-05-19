@@ -29,94 +29,91 @@ class _Template21State extends State<Template21> {
                 children: [
                   Image.asset(
                     "assets/images/21.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.04),
                       Text(
                         "We Invite You With Great Pleasure To",
-                        style: GoogleFonts.abhayaLibre(
+                        style: GoogleFonts.elMessiri(
                             color: cactus,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.03),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "This Blessed Ocassion",
                         style: GoogleFonts.elMessiri(
                             color: black,
-                            fontSize: 20,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.02),
                       Text(
                         "Arieta",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.sail(
+                            color: heatWave,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "On Her Colourfull",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Haldi",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.sail(
+                            fontSize: width * 0.1,
+                            color: heatWave,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "Ceremony",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: width * 0.05,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
+                      h(height * 0.38),
                       Text(
                         "15 DECEMBER, 2029",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                            fontSize: width * 0.05,
+                            color: heatWave,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "5:30PM Onwards",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
                         "venue",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: heatWave,
+                            fontSize: width * 0.06,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "445, Mount Eden Road,",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.036,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Anytown, USA",
                         style: GoogleFonts.chivo(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

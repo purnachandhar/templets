@@ -25,112 +25,124 @@ class _Meh6CleanupState extends State<Meh6Cleanup> {
               height: height,
               width: width,
               child: Stack(
-                alignment: Alignment.center,
+                alignment: Alignment.topLeft,
                 children: [
                   Image.asset(
-                    "assets/images/rep1_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    "assets/images/meh6_cleanup.jpg",
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
-                  Column(
-                    children: [
-                      h(height / 2.45),
-                      Text(
-                        "Mehendi",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
-                        // TextStyle(color: cactus, fontSize: 50),
-                      ),
-                      h(5),
-                      Text(
-                        "Bring on the beats &",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(30),
-                      Text(
-                        "Join us for our",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      Text(
-                        "Mehendi Sundowner",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      h(20),
-                      Row(
-                        children: [
-                          Column(
-                            children: [
-                              Text(
-                                "9th",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                "December",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                "2022",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Text(
-                                "Amaanta Farms,",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                "New Delhi",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                              Text(
-                                "5:00 pm onwards",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
-                                    fontWeight: FontWeight.bold),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      h(30),
-                      Text(
-                        "Dress Code : Vibrant Indian",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ],
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 30),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        h(height * 0.26),
+                        Text(
+                          "Mehendi",
+                          style: GoogleFonts.corinthia(
+                              color: cactus,
+                              fontWeight: FontWeight.bold,
+                              fontSize: width * 0.16),
+                          // TextStyle(color: cactus, fontSize: 50),
+                        ),
+                        h(5),
+                        Text(
+                          "Bring on the beats &",
+                          style: GoogleFonts.alice(
+                              color: black,
+                              fontSize: width * 0.05,
+                              fontWeight: FontWeight.normal),
+                        ),
+                        Text(
+                          "Join us for our",
+                          style: GoogleFonts.marcellus(
+                              color: black,
+                              fontSize: width * 0.05,
+                              fontWeight: FontWeight.normal),
+                        ),
+                        Text(
+                          "Mehendi Sundowner",
+                          style: GoogleFonts.marcellus(
+                              color: black,
+                              fontSize: width * 0.05,
+                              fontWeight: FontWeight.normal),
+                        ),
+                        h(height * 0.02),
+                        Row(
+                          children: [
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: [
+                                Text(
+                                  "9th",
+                                  style: GoogleFonts.petrona(
+                                      fontSize: width * 0.08,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  "December",
+                                  style: GoogleFonts.abhayaLibre(
+                                      fontSize: width * 0.05,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  "2022",
+                                  style: GoogleFonts.abhayaLibre(
+                                      fontSize: width * 0.05,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
+                            w(width * 0.02),
+                            Container(
+                              height: 120,
+                              width: 2,
+                              decoration: BoxDecoration(color: black),
+                            ),
+                            w(width * 0.02),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  "Amaanta Farms,",
+                                  style: GoogleFonts.abhayaLibre(
+                                      fontSize: width * 0.05,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  "New Delhi",
+                                  style: GoogleFonts.abhayaLibre(
+                                      fontSize: width * 0.05,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  "5:00 pm onwards",
+                                  style: GoogleFonts.abhayaLibre(
+                                      fontSize: width * 0.05,
+                                      color: black,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        h(height * 0.02),
+                        Text(
+                          "Dress Code : Vibrant Indian",
+                          style: GoogleFonts.workSans(
+                              fontSize: width * 0.04,
+                              color: black,
+                              fontWeight: FontWeight.w500),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),

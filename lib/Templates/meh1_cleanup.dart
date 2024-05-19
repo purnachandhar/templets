@@ -29,82 +29,77 @@ class _Meh1CleanupState extends State<Meh1Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/meh1_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.17),
                       Text(
                         "WE JOYFULL REQUEST",
-                        style: GoogleFonts.abhayaLibre(
+                        style: GoogleFonts.robotoSlab(
                             color: cactus,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.04),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "YOUR PRESENCE TO CELEBRATE",
-                        style: GoogleFonts.elMessiri(
+                        style: GoogleFonts.robotoSlab(
                             color: black,
-                            fontSize: 20,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "Mehendi",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.sofia(
+                            color: maroon,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "or",
-                        style: GoogleFonts.marcellus(
+                        "OF",
+                        style: GoogleFonts.robotoSlab(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Sonia",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.sofia(
+                            fontSize: width * 0.1,
+                            color: maroon,
+                            fontWeight: FontWeight.w600),
                       ),
-                      h(30),
                       Text(
                         "ON",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.robotoSlab(
+                            fontSize: width * 0.04,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "OCTOBER 15.20XX | 5:00 PM",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.robotoSlab(
+                            fontSize: width * 0.03,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "VENUE SONIA'S RESIDENCE",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.robotoSlab(
+                            fontSize: width * 0.03,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Z-152, SUB STREET",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.robotoSlab(
+                            fontSize: width * 0.03,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.w600),
                       ),
-                      h(30),
                     ],
                   ),
                 ],

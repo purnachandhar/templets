@@ -29,87 +29,93 @@ class _Template11State extends State<Template11> {
                 children: [
                   Image.asset(
                     "assets/images/11.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.21),
                       Text(
                         "Mrs. Lakshmi &",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
-                        // TextStyle(color: cactus, fontSize: 50),
+                          color: turkishRose,
+                          fontWeight: FontWeight.bold,
+                          fontSize: width * 0.05,
+                        ),
                       ),
-                      h(5),
                       Text(
                         "Mr. Narasimha Raman",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: turkishRose,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.03),
                       Text(
-                        "Invited TO The Credle Ceremony",
+                        "Invited To The Cradle Ceremony",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                            color: axolotl,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Of Their Daughter",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: axolotl,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
+                      h(height * 0.04),
                       Text(
                         "Vijay Raman",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.sail(
+                            fontSize: width * 0.1,
+                            color: dingyDungeon,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.01),
+                      Divider(
+                        thickness: 2,
+                        color: axolotl,
+                        indent: width * 0.25,
+                        endIndent: width * 0.26,
+                      ),
+                      h(height * 0.02),
                       Text(
                         "Sunday, January 15th, 2030",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                        style: GoogleFonts.inter(
+                            fontSize: width * 0.04,
+                            color: turkishRose,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "7 PM Onwards",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                        style: GoogleFonts.inter(
+                            fontSize: width * 0.04,
+                            color: axolotl,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.003),
                       Text(
                         "Venue",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: turkishRose,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "415 J, Unnamed Road,",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.inter(
+                            color: axolotl,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Shirahatti Rural, Karnataka 582120",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.inter(
+                            color: axolotl,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

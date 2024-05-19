@@ -29,27 +29,27 @@ class _Meh3CleanupState extends State<Meh3Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/meh3_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.2),
                       Text(
                         "you are cordially invited to attend the",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                            color: black,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.039),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+                      h(height * 0.02),
                       Text(
                         "Rasm-e- Mehndi",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.rochester(
+                            color: acidGreen,
+                            fontSize: width * 0.13,
                             fontWeight: FontWeight.bold),
                       ),
                     ],

@@ -29,57 +29,53 @@ class _Meh2CleanupState extends State<Meh2Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/meh2_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.1),
                       Text(
                         "YOU ARE INVITED TO THE",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                            color: black,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.05),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "Mehendi",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.dancingScript(
+                            color: electricBrown,
+                            fontSize: width * 0.14,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "of",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.dancingScript(
+                            color: electricBrown,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Sonia",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.dancingScript(
+                            color: electricBrown,
+                            fontSize: width * 0.14,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "OCTOBER 15.20XX | 7:00 PM",
                         style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                            fontSize: width * 0.045,
+                            color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "THE BLUEROSE HALL",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.abhayaLibre(
+                            fontSize: width * 0.045,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),

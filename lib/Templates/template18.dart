@@ -29,88 +29,98 @@ class _Template18State extends State<Template18> {
                 children: [
                   Image.asset(
                     "assets/images/18.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.32),
                       Text(
                         "Mr & Mrs Hanger",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                        style: GoogleFonts.playball(
+                            color: bistreBrown,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.1),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
                       h(5),
                       Text(
                         "with great pleasure invites you",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.roboto(
+                            color: graniteGray,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "to their baby girl's",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.roboto(
+                            color: graniteGray,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "Cradle Ceremony",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.playball(
+                            color: bistreBrown,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Please join us on",
                         style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                            fontSize: width * 0.06,
+                            color: graniteGray,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.02),
+                      const Divider(
+                        height: 2,
+                        thickness: 2,
+                        indent: 50,
+                        endIndent: 50,
+                      ),
                       Text(
                         "Monday, 12 May, 2030",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                            fontSize: width * 0.06,
+                            color: bistreBrown,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
                         "AT 11 AM Onwards",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                            fontSize: width * 0.06,
+                            color: bistreBrown,
+                            fontWeight: FontWeight.w500),
                       ),
-                      h(30),
+                      const Divider(
+                        height: 2,
+                        thickness: 2,
+                        indent: 50,
+                        endIndent: 50,
+                      ),
+                      h(height * 0.02),
                       Text(
                         "At Our Residence",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            color: graniteGray,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.w400),
                       ),
                       Text(
                         "123 Main Street",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            color: graniteGray,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.w400),
                       ),
                       Text(
                         "Anytown, USA 12345",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            color: graniteGray,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.w400),
                       ),
                     ],
                   ),

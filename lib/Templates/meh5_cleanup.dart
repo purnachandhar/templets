@@ -29,55 +29,54 @@ class _Meh5CleanupState extends State<Meh5Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/meh5_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.12),
                       Text(
                         "Mehendi",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                        style: GoogleFonts.sail(
+                            color: pinapple,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.1),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
+                      h(height * 0.08),
                       Text(
                         "Theme - Colorful Hues",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: quincy,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Attire -",
+                            "Attire - ",
                             style: GoogleFonts.marcellus(
-                                color: black,
-                                fontSize: 20,
+                                color: darkTan,
+                                fontSize: width * 0.05,
                                 fontWeight: FontWeight.w600),
                           ),
                           Text(
                             "Indo Western (Women)",
                             style: GoogleFonts.marcellus(
-                                color: black,
-                                fontSize: 36,
+                                color: quincy,
+                                fontSize: width * 0.04,
                                 fontWeight: FontWeight.w600),
                           ),
                         ],
                       ),
-                      h(20),
                       Text(
                         "and Nehru Jacket (Men)",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.marcellus(
+                            fontSize: width * 0.04,
+                            color: quincy,
+                            fontWeight: FontWeight.w600),
                       ),
                       h(30),
                     ],

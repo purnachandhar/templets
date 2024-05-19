@@ -29,106 +29,135 @@ class _Template22State extends State<Template22> {
                 children: [
                   Image.asset(
                     "assets/images/22.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.2),
                       Text(
                         "Let's",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                        style: GoogleFonts.besley(
+                            color: black,
+                            fontWeight: FontWeight.normal,
+                            fontSize: width * 0.05),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
-                        "Flutter",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(30),
-                      Text(
-                        "Twirl",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                        "Flutter & Twirl",
+                        style: GoogleFonts.playball(
+                            color: bigDipOruby,
+                            fontSize: width * 0.1,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "with The Birthday Girl",
-                        style: GoogleFonts.marcellus(
+                        style: GoogleFonts.besley(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(20),
+                      h(height * 0.05),
                       Text(
                         "Arieta",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.playball(
+                            fontSize: width * 0.1,
+                            color: bigDipOruby,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "Is Turning Three",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.besley(
+                            fontSize: width * 0.04,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
+                      h(height * 0.03),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text(
-                            "August",
-                            style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
-                                fontWeight: FontWeight.bold),
+                          Column(
+                            children: [
+                              Container(
+                                height: 2,
+                                width: 85,
+                                decoration: BoxDecoration(color: bigDipOruby),
+                              ),
+                              Text(
+                                "August",
+                                style: GoogleFonts.besley(
+                                    fontSize: width * 0.05,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Container(
+                                height: 2,
+                                width: 85,
+                                decoration: BoxDecoration(color: bigDipOruby),
+                              ),
+                            ],
                           ),
-                          Text(
-                            "20",
-                            style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
-                                fontWeight: FontWeight.bold),
+                          Container(
+                            height: 50,
+                            width: 50,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(60),
+                                color: bigDipOruby),
+                            child: Text(
+                              "20",
+                              style: GoogleFonts.besley(
+                                  fontSize: width * 0.06,
+                                  color: white,
+                                  fontWeight: FontWeight.bold),
+                            ),
                           ),
-                          Text(
-                            "At 5PM",
-                            style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
-                                fontWeight: FontWeight.bold),
+                          Column(
+                            children: [
+                              Container(
+                                height: 2,
+                                width: 85,
+                                decoration: BoxDecoration(color: bigDipOruby),
+                              ),
+                              Text(
+                                "At 5PM",
+                                style: GoogleFonts.besley(
+                                    fontSize: width * 0.06,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Container(
+                                height: 2,
+                                width: 90,
+                                decoration: BoxDecoration(color: bigDipOruby),
+                              ),
+                            ],
                           ),
                         ],
                       ),
-                      h(30),
+                      h(height * 0.03),
                       Text(
-                        "445 W, MOUNT EDEN ROAD,",
-                        style: GoogleFonts.chivo(
+                        "445 W, Mount Eden Road",
+                        style: GoogleFonts.besley(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.038,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
-                        "ANCHORAGE,AK 99504",
-                        style: GoogleFonts.chivo(
+                        "Ancorage,AK 99504",
+                        style: GoogleFonts.besley(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.035,
+                            fontWeight: FontWeight.w500),
                       ),
+                      h(height * 0.03),
                       Text(
                         "RSVP To +1 012 345 6789",
-                        style: GoogleFonts.chivo(
+                        style: GoogleFonts.besley(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.038,
+                            fontWeight: FontWeight.w500),
                       ),
                     ],
                   ),
