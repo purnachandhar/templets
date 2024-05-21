@@ -29,73 +29,71 @@ class _Rep5CleanupState extends State<Rep5Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/rep5_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.05),
                       Text(
                         "TOGETHER WITH THEIR",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                        style: GoogleFonts.poiretOne(
+                            color: black,
+                            fontWeight: FontWeight.w500,
+                            fontSize: width * 0.06),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "FAMILIES",
-                        style: GoogleFonts.elMessiri(
+                        style: GoogleFonts.poiretOne(
                             color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                            fontSize: width * 0.06,
+                            fontWeight: FontWeight.w500),
                       ),
-                      h(30),
                       Text(
                         "Vikram",
-                        style: GoogleFonts.marcellus(
+                        style: GoogleFonts.parisienne(
                             color: black,
-                            fontSize: 20,
+                            fontSize: width * 0.1,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "And",
-                        style: GoogleFonts.marcellus(
+                        style: GoogleFonts.dancingScript(
                             color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.08,
+                            fontWeight: FontWeight.w100),
                       ),
-                      h(20),
                       Text(
                         "Kashish",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.greatVibes(
+                            fontSize: width * 0.1,
+                            color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.04),
                       Text(
                         "SAVE THE DATE",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.poiretOne(
+                            fontSize: width * 0.06,
                             color: black,
-                            fontWeight: FontWeight.bold),
+                            fontWeight: FontWeight.normal),
                       ),
+                      h(height * 0.3),
                       Text(
                         "SUNDAY | 19 | OCTOBER",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
+                        style: GoogleFonts.poiretOne(
+                            fontSize: width * 0.06,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
+                      h(height * 0.14),
                       Text(
                         "99 HOTEL EMBROID BANGLORE",
-                        style: GoogleFonts.chivo(
+                        style: GoogleFonts.poiretOne(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

@@ -42,7 +42,7 @@ class _Meh6CleanupState extends State<Meh6Cleanup> {
                         Text(
                           "Mehendi",
                           style: GoogleFonts.corinthia(
-                              color: cactus,
+                              color: black,
                               fontWeight: FontWeight.bold,
                               fontSize: width * 0.16),
                           // TextStyle(color: cactus, fontSize: 50),

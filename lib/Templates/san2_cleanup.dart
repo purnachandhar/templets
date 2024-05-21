@@ -29,84 +29,91 @@ class _San2CleanupState extends State<San2Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/san2_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.25),
                       Text(
                         "A Starry night",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                        style: GoogleFonts.alexBrush(
+                            color: white,
+                            fontWeight: FontWeight.normal,
+                            fontSize: width * 0.1),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "LOVE TRUELY, EAT MADLY,",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.marcellus(
+                            color: white,
+                            fontSize: width * 0.03,
+                            fontWeight: FontWeight.w600),
                       ),
-                      h(30),
                       Text(
                         "DRINK DEEPLY &",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                            color: white,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "DANCE IMPERFECTLY",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: white,
+                            fontSize: width * 0.03,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
+                      h(height * 0.02),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "JAN",
-                            style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
+                            "JAN | ",
+                            style: GoogleFonts.lusitana(
+                                fontSize: width * 0.04,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            "11TH",
-                            style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
+                            "11",
+                            style: GoogleFonts.lusitana(
+                                fontSize: width * 0.06,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            "2023",
+                            "TH",
                             style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
+                                fontSize: width * 0.03,
+                                color: white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            " | 2023",
+                            style: GoogleFonts.lusitana(
+                                fontSize: width * 0.06,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
-                      h(30),
+                      h(height * 0.02),
                       Text(
                         "07:00 PM ONWARDS",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.lusitana(
+                            fontSize: width * 0.04,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
+                      h(height * 0.02),
                       Text(
-                        "VENUE:LAWN 2",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        "VENUE: LAWN  2",
+                        style: GoogleFonts.lusitana(
+                            fontSize: width * 0.04,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
                     ],
                   ),

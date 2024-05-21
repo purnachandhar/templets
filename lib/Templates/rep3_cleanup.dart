@@ -29,101 +29,96 @@ class _Rep3CleanupState extends State<Rep3Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/rep3_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.01),
                       Text(
                         "THE FAMILIES OF",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                            color: blueGreen,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.05),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "ABU TAKY AND AGYEMANG",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "in honour of",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Richard Roe",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Saturday 10th July 2030",
                         style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                            fontSize: width * 0.05,
+                            color: blueGreen,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "1pm-3pm",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                            fontSize: width * 0.05,
+                            color: blueGreen,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "Hotel Name",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                            fontSize: width * 0.05,
+                            color: blueGreen,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "123 Main Street Anytown, USA 12345",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.chivo( 
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Please bring a baby book in lieu of a card",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Rsvp",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: peru,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Please reply to Sara by 01.07:",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "+1 012 345 6789",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: blueGreen,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

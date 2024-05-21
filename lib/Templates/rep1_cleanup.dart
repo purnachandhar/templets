@@ -29,117 +29,139 @@ class _Rep1CleanupState extends State<Rep1Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/rep1_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.1),
                       Text(
                         "Sarah",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                        style: GoogleFonts.carattere(
+                            color: black,
+                            fontWeight: FontWeight.normal,
+                            fontSize: width * 0.15),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "AND",
                         style: GoogleFonts.elMessiri(
                             color: black,
-                            fontSize: 20,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
-                        "Mathew",
-                        style: GoogleFonts.marcellus(
+                        "Matthew",
+                        style: GoogleFonts.ooohBaby(
                             color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                            fontSize: width * 0.15,
+                            fontWeight: FontWeight.normal),
                       ),
+                      h(height * 0.03),
                       Text(
                         "TOGETHER WITH THEIR FAMILIES",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "INVITE YOU TO THEIR WEDDING CELEBRATION",
                         style: GoogleFonts.marcellus(
                             color: black,
-                            fontSize: 36,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
+                      h(height * 0.03),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text(
-                            "SATURDAY",
-                            style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
-                                fontWeight: FontWeight.bold),
+                          Column(
+                            children: [
+                              Container(
+                                height: 2,
+                                width: width * 0.3,
+                                decoration: BoxDecoration(color: black),
+                              ),
+                              Text(
+                                "SATURDAY",
+                                style: GoogleFonts.abhayaLibre(
+                                    fontSize: width * 0.045,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Container(
+                                height: 2,
+                                width: width * 0.3,
+                                decoration: BoxDecoration(color: black),
+                              ),
+                            ],
                           ),
+                          w(width * 0.04),
                           Column(
                             children: [
                               Text(
                                 "AUG",
                                 style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
+                                    fontSize: width * 0.045,
+                                    color: black,
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
                                 "22",
-                                style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
+                                style: GoogleFonts.roboto(
+                                    fontSize: width * 0.1,
+                                    color: black,
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
                                 "2021",
                                 style: GoogleFonts.abhayaLibre(
-                                    fontSize: 40,
-                                    color: cactus,
+                                    fontSize: width * 0.045,
+                                    color: black,
                                     fontWeight: FontWeight.bold),
                               ),
                             ],
                           ),
-                          Text(
-                            "AT 4 PM",
-                            style: GoogleFonts.abhayaLibre(
-                                fontSize: 40,
-                                color: cactus,
-                                fontWeight: FontWeight.bold),
+                          w(width * 0.04),
+                          Column(
+                            children: [
+                              Container(
+                                height: 2,
+                                width: width * 0.3,
+                                decoration: BoxDecoration(color: black),
+                              ),
+                              Text(
+                                "AT 4 PM",
+                                style: GoogleFonts.abhayaLibre(
+                                    fontSize: width * 0.045,
+                                    color: black,
+                                    fontWeight: FontWeight.bold),
+                              ),
+                              Container(
+                                height: 2,
+                                width: width * 0.3,
+                                decoration: BoxDecoration(color: black),
+                              ),
+                            ],
                           ),
                         ],
                       ),
-                      h(30),
+                      h(height * 0.05),
                       Text(
-                        "LONGISLAND'S . NORTH SHORE",
+                        "LONGISLAND'S  .  NORTH SHORE",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: width * 0.035,
                             color: black,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "45 BELEROSE ROAD . SOUND BEACH NY",
+                        "45 BELEROSE ROAD  .  SOUND BEACH NY",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
+                            fontSize: width * 0.035,
                             color: black,
                             fontWeight: FontWeight.bold),
-                      ),
-                      h(30),
-                      Text(
-                        "Reception to Follow",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
                       ),
                     ],
                   ),

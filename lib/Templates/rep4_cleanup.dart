@@ -29,105 +29,125 @@ class _Rep4CleanupState extends State<Rep4Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/rep4_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
-                      Text(
-                        "SAVE the DATE",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
-                        // TextStyle(color: cactus, fontSize: 50),
+                      h(height * 0.12),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "SAVE ",
+                            style: GoogleFonts.abhayaLibre(
+                                color: white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: width * 0.08),
+                            // TextStyle(color: cactus, fontSize: 50),
+                          ),
+                          Text(
+                            " the ",
+                            style: GoogleFonts.satisfy(
+                                color: copper,
+                                fontWeight: FontWeight.bold,
+                                fontSize: width * 0.08),
+                            // TextStyle(color: cactus, fontSize: 50),
+                          ),
+                          Text(
+                            " DATE",
+                            style: GoogleFonts.abhayaLibre(
+                                color: white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: width * 0.08),
+                            // TextStyle(color: cactus, fontSize: 50),
+                          ),
+                        ],
                       ),
-                      h(5),
                       Text(
                         "FOR THE",
                         style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                            color: white,
+                            fontSize: width * 0.06,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "WEDDING OF",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                            color: white,
+                            fontSize: width * 0.06,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Caroline",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.dancingScript(
+                            color: copper,
+                            fontSize: width * 0.16,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "& Smith",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.niconne(
+                            fontSize: width * 0.16,
+                            color: copper,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
                             "SATURDAY",
                             style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
+                                fontSize: width * 0.04,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
+                          w(width * 0.06),
                           Text(
                             "27",
                             style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
+                                fontSize: width * 0.08,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
+                          w(width * 0.06),
                           Text(
                             "JULY",
                             style: GoogleFonts.workSans(
-                                fontSize: 20,
-                                color: black,
+                                fontSize: width * 0.04,
+                                color: white,
                                 fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
                       Text(
-                        "07.00 PM",
+                        "06.00 PM",
                         style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                            fontSize: width * 0.05,
+                            color: white,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "YOUR VENUE HALL",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: copper,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "256. Street name. main city",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: white,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
+                      h(height * 0.06),
                       Text(
                         "Sit gow there",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.niconne(
+                            color: copper,
+                            fontSize: width * 0.14,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

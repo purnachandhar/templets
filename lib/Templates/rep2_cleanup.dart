@@ -29,87 +29,83 @@ class _Rep2CleanupState extends State<Rep2Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/rep2_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.16),
                       Text(
                         "Wedding",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                        style: GoogleFonts.alike(
+                            color: metallicBlue,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.1),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "Reception",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.kaushanScript(
+                            color: metallicBlue,
+                            fontSize: width * 0.14,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "We invite your pleasure to come to the",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
+                            color: metallicBlue,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "wedding reception ceremony of",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: metallicBlue,
+                            fontSize: width * 0.035,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Alexander",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
+                        style: GoogleFonts.pattaya(
+                            fontSize: width * 0.1,
+                            color: metallicBlue,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                       Text(
                         "&",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                        style: GoogleFonts.playball(
+                            fontSize: width * 0.1,
+                            color: metallicBlue,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "Fuliana",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.lobster(
+                            fontSize: width * 0.12,
+                            color: metallicBlue,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "26.08.2023",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.roboto(
+                            color: metallicBlue,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
+                      h(height * 0.03),
                       Text(
                         "123 Anywhere st.,",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.roboto(
+                            color: metallicBlue,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
-                        "ANy City, ST 12345",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        "Any City, ST 12345",
+                        style: GoogleFonts.roboto(
+                            color: metallicBlue,
+                            fontSize: width * 0.05,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

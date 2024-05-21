@@ -29,108 +29,130 @@ class _San4CleanupState extends State<San4Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/san4_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.1),
                       Text(
                         "Sparkling Night",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
+                        style: GoogleFonts.monteCarlo(
+                            color: chineseWhite,
                             fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                            fontSize: width * 0.08),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "SANGEET & MUSICAL NIGHT",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
+                        style: GoogleFonts.cinzel(
+                            color: white,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
-                      Text(
-                        "July |",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                      h(height * 0.02),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "July | ",
+                            style: GoogleFonts.marcellus(
+                                color: white,
+                                fontSize: width * 0.06,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          Text(
+                            "8",
+                            style: GoogleFonts.marcellus(
+                                color: white,
+                                fontSize: width * 0.06,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          Text(
+                            "th",
+                            style: GoogleFonts.marcellus(
+                                color: white,
+                                fontSize: width * 0.04,
+                                fontWeight: FontWeight.w600),
+                          ),
+                          Text(
+                            " | 2023",
+                            style: GoogleFonts.marcellus(
+                                fontSize: width * 0.06,
+                                color: white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
-                      Text(
-                        "8th",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      h(20),
-                      Text(
-                        "2023",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(30),
+                      h(height * 0.02),
                       Text(
                         "Sangeet",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.castoro(
+                            fontSize: width * 0.05,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
-                      Text(
-                        "9:01 pm onwards",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "9:01 ",
+                            style: GoogleFonts.alice(
+                                fontSize: width * 0.08,
+                                color: white,
+                                fontWeight: FontWeight.normal),
+                          ),
+                          Text(
+                            "pm onwards",
+                            style: GoogleFonts.alice(
+                                fontSize: width * 0.04,
+                                color: white,
+                                fontWeight: FontWeight.normal),
+                          ),
+                        ],
                       ),
-                      h(30),
+                      h(height * 0.02),
                       Text(
                         "Musical Night",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.alice(
+                            color: white,
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "10:00 pm onwards",
                         style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
+                            color: white,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "By Neeli Mohan",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.monteCarlo(
+                            color: white,
+                            fontSize: width * 0.08,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Venue:",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.alice(
+                            color: white,
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.w500),
                       ),
                       Text(
                         "Classic Convention 3",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: white,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
                       Text(
                         "Shamshabad, Hyd",
                         style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                            color: white,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
                     ],

@@ -29,81 +29,78 @@ class _San5CleanupState extends State<San5Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/san5_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.1),
                       Text(
                         "Sangeet",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
-                        // TextStyle(color: cactus, fontSize: 50),
+                        style: GoogleFonts.rougeScript(
+                          color: white,
+                          fontSize: width * 0.12,
+                          fontWeight: FontWeight.normal,
+                        ),
                       ),
-                      h(5),
                       Text(
-                        "Darling our way to wedding Day ",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                        "Dancing our way to wedding Day ",
+                        style: GoogleFonts.yesteryear(
+                            color: white,
+                            fontSize: width * 0.06,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
+                      h(height * 0.02),
                       Text(
                         "6TH FEBRUARY , 2023",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.lusitana(
+                            color: white,
+                            fontSize: width * 0.05,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "6:30 PM",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.lusitana(
+                            color: white,
+                            fontSize: width * 0.06,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(20),
+                      h(height * 0.02),
                       Text(
                         "at",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.greatVibes(
+                            fontSize: width * 0.1,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "HALL:THYME",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.anticSlab(
+                            fontSize: width * 0.06,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "DOUBLETREE BY HILTON",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.lusitana(
+                            fontSize: width * 0.04,
+                            color: white,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "BAANI SQUARE. SECTOR-50,",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.lusitana(
+                            color: white,
+                            fontSize: width * 0.042,
+                            fontWeight: FontWeight.normal),
                       ),
                       Text(
                         "GURUGRAM, HARYANA-122002 ",
-                        style: GoogleFonts.chivo(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.lusitana(
+                            color: white,
+                            fontSize: width * 0.045,
+                            fontWeight: FontWeight.normal),
                       ),
                     ],
                   ),

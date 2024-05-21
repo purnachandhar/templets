@@ -3,14 +3,14 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:templets/constants/cololrs.dart';
 import 'package:templets/constants/widgets.dart';
 
-class Template23 extends StatefulWidget {
-  const Template23({super.key});
+class San3Cleanup extends StatefulWidget {
+  const San3Cleanup({super.key});
 
   @override
-  State<Template23> createState() => _Template23State();
+  State<San3Cleanup> createState() => _San3CleanupState();
 }
 
-class _Template23State extends State<Template23> {
+class _San3CleanupState extends State<San3Cleanup> {
   GlobalKey<FormState> genKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
@@ -29,72 +29,80 @@ class _Template23State extends State<Template23> {
                 children: [
                   Image.asset(
                     "assets/images/san3_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
-                  Column(
-                    children: [
-                      h(height / 2.45),
-                      Text(
-                        "Sagai & Musical night",
-                        style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
-                        // TextStyle(color: cactus, fontSize: 50),
-                      ),
-                      h(5),
-                      Row(
-                        children: [
-                          Text(
-                            "30TH |",
-                            style: GoogleFonts.elMessiri(
-                                color: black,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text(
-                            "APRIL |",
-                            style: GoogleFonts.elMessiri(
-                                color: black,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          Text(
-                            "2023",
-                            style: GoogleFonts.elMessiri(
-                                color: black,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ),
-                        ],
-                      ),
-                      h(30),
-                      Text(
-                        "8:01 PM ONWARDS",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      Text(
-                        "VENUE :",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
-                            fontWeight: FontWeight.w600),
-                      ),
-                      h(20),
-                      Text(
-                        "CITADEL, HYDERABAD",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      h(30),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 40),
+                    child: Column(
+                      children: [
+                        h(height * 0.7),
+                        Text(
+                          "Sagai & Musical night",
+                          style: GoogleFonts.alexBrush(
+                              color: white,
+                              fontWeight: FontWeight.normal,
+                              fontSize: width * 0.08),
+                          // TextStyle(color: cactus, fontSize: 50),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "30",
+                              style: GoogleFonts.lusitana(
+                                  color: white,
+                                  fontSize: width * 0.04,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              "TH",
+                              style: GoogleFonts.lusitana(
+                                  color: white,
+                                  fontSize: width * 0.02,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              " | APRIL | ",
+                              style: GoogleFonts.lusitana(
+                                  color: white,
+                                  fontSize: width * 0.04,
+                                  fontWeight: FontWeight.normal),
+                            ),
+                            Text(
+                              "2023",
+                              style: GoogleFonts.lusitana(
+                                  color: white,
+                                  fontSize: width * 0.04,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          "8:01 PM ONWARDS",
+                          style: GoogleFonts.marcellus(
+                              color: white,
+                              fontSize: width * 0.04,
+                              fontWeight: FontWeight.w500),
+                        ),
+                        h(height * 0.03),
+                        Text(
+                          "VENUE :",
+                          style: GoogleFonts.marcellus(
+                              color: white,
+                              fontSize: width * 0.03,
+                              fontWeight: FontWeight.normal),
+                        ),
+                        Text(
+                          "CITADEL, HYDERABAD",
+                          style: GoogleFonts.abhayaLibre(
+                              fontSize: width * 0.04,
+                              color: white,
+                              fontWeight: FontWeight.bold),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
@@ -111,46 +119,46 @@ class _Template23State extends State<Template23> {
                   const Spacer(),
                   Icon(
                     Icons.translate,
-                    color: black,
+                    color: white,
                     size: 28,
                   ),
                   h(2),
                   Text(
                     "Translate",
-                    style: TextStyle(color: black, fontWeight: FontWeight.w600),
+                    style: TextStyle(color: white, fontWeight: FontWeight.w600),
                   ),
                   h(22),
                   Icon(
                     Icons.share_outlined,
-                    color: black,
+                    color: white,
                     size: 28,
                   ),
                   h(2),
                   Text(
                     "Share",
-                    style: TextStyle(color: black, fontWeight: FontWeight.w600),
+                    style: TextStyle(color: white, fontWeight: FontWeight.w600),
                   ),
                   h(22),
                   Icon(
                     Icons.edit,
-                    color: black,
+                    color: white,
                     size: 28,
                   ),
                   h(2),
                   Text(
                     "Edit",
-                    style: TextStyle(color: black, fontWeight: FontWeight.w600),
+                    style: TextStyle(color: white, fontWeight: FontWeight.w600),
                   ),
                   h(22),
                   Icon(
                     Icons.download,
-                    color: black,
+                    color: white,
                     size: 28,
                   ),
                   h(2),
                   Text(
                     "Download",
-                    style: TextStyle(color: black, fontWeight: FontWeight.w600),
+                    style: TextStyle(color: white, fontWeight: FontWeight.w600),
                   ),
                   h(38)
                 ],

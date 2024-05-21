@@ -29,68 +29,64 @@ class _San1CleanupState extends State<San1Cleanup> {
                 children: [
                   Image.asset(
                     "assets/images/san1_cleanup.jpg",
-                    // fit: BoxFit.fill,
+                    fit: BoxFit.fill,
                     height: height,
                     width: width,
                   ),
                   Column(
                     children: [
-                      h(height / 2.45),
+                      h(height * 0.23),
                       Text(
                         "YOU ARE",
                         style: GoogleFonts.abhayaLibre(
-                            color: cactus,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 50),
+                          color: white,
+                          fontWeight: FontWeight.normal,
+                          fontSize: width * 0.04,
+                        ),
                         // TextStyle(color: cactus, fontSize: 50),
                       ),
-                      h(5),
                       Text(
                         "CORDIALLY INVITED TO THE",
-                        style: GoogleFonts.elMessiri(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.abhayaLibre(
+                            color: white,
+                            fontSize: width * 0.04,
+                            fontWeight: FontWeight.normal),
                       ),
-                      h(30),
                       Text(
                         "Sangeet",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 20,
-                            fontWeight: FontWeight.w600),
+                        style: GoogleFonts.alexBrush(
+                            color: white,
+                            fontSize: width * 0.1,
+                            fontWeight: FontWeight.w400),
                       ),
                       Text(
                         "Of",
-                        style: GoogleFonts.marcellus(
-                            color: black,
-                            fontSize: 36,
+                        style: GoogleFonts.tangerine(
+                            color: white,
+                            fontSize: width * 0.04,
                             fontWeight: FontWeight.w600),
                       ),
-                      h(20),
                       Text(
                         "Sonia & Akshay",
-                        style: GoogleFonts.abhayaLibre(
-                            fontSize: 40,
-                            color: cactus,
-                            fontWeight: FontWeight.bold),
+                        style: GoogleFonts.alexBrush(
+                            fontSize: width * 0.1,
+                            color: white,
+                            fontWeight: FontWeight.w400),
                       ),
-                      h(30),
                       Text(
                         "OCTOBER 15.20XX | 7:00 PM",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                        style: GoogleFonts.abhayaLibre(
+                            fontSize: width * 0.04,
+                            color: white,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "AT HER RESIDENCE",
-                        style: GoogleFonts.workSans(
-                            fontSize: 20,
-                            color: black,
+                        style: GoogleFonts.abhayaLibre(
+                            fontSize: width * 0.04,
+                            color: white,
                             fontWeight: FontWeight.bold),
                       ),
-                      h(30),
                     ],
                   ),
                 ],
