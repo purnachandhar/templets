@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:templets/Templates/san3_cleanup.dart';
-// import 'package:templets/Templates/san4_cl;eanup.dart';
-import 'package:templets/Templates/san5_cleanup.dart';
+import 'package:templets/Templates/meh1_cleanup.dart';
 // import 'package:templets/Templates/san2_cleanup.dart';
 // import 'package:templets/Templates/san1_cleanup.dart';
 // import 'package:templets/Templates/rep1_cleanup.dart';
@@ -51,7 +49,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const San5Cleanup(),
+      home: const Meh1Cleanup(),
     );
   }
 }
